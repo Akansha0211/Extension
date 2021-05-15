@@ -1,10 +1,13 @@
 # Getting Started with Flask + React
 
 ### Create a virtual env(Inside project folder)
+Clone Github repo and then you can install frontend dependencies inside react-app folder sing node package manager & backend dependencies using pip python installer
 npx create-react-app react-app
 
 ###How it will work: 
 templates folder will contain index.html once you create a build version of your react-frontend
+Run main.py available in the flask-backend folder to start the flask server
+Now start react application using npm start (will serve the web application)
 
 ## Available Scripts
 
