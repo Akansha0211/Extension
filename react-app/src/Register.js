@@ -3,6 +3,7 @@ import {Form} from 'react-bootstrap';
 import axios from 'axios';
 import './Register.css';
 
+
 function Register() {
     const [username, setUsername] = useState('')
     const register = () =>{
@@ -10,6 +11,13 @@ function Register() {
             username : username
         })
     }
+    var today = new Date();
+    var date = today.getDate() + "-" + (today.getMonth()+1) + "-" + today.getFullYear();
+    var time = today.getHours() + ":" + today.getMinutes();
+    var day = today.getDay();
+    var dayOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+    var weekday = dayOfWeek[day]
+
     return (      
         <div className="container">
            <div className="box">
@@ -26,6 +34,12 @@ function Register() {
                </div>
            </Form>
            </div>
+           <div>
+                <p>{time}</p>
+                <p>{date}</p>
+                <p>{weekday}</p>
+           </div>
+
         </div>
     )
 }
