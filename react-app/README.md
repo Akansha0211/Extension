@@ -4,6 +4,10 @@
 Clone Github repo and then you can install frontend dependencies inside react-app folder sing node package manager & backend dependencies using pip python installer
 npx create-react-app react-app
 
+## Also worked on FLASK + EXPRESS SERVER 
+Since flask and express both are using node js , so things were quite different, but then React part remains almost the same.
+You can check out that project as well:  https://github.com/coderkabh/Show_My_Folio
+
 ###How it will work: 
 templates folder will contain index.html once you create a build version of your react-frontend
 Run main.py available in the flask-backend folder to start the flask server
