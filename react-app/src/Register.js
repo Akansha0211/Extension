@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import {Form} from 'react-bootstrap';
 import axios from 'axios';
+import './Register.css';
 
 function Register() {
     const [username, setUsername] = useState('')
@@ -10,19 +11,21 @@ function Register() {
         })
     }
     return (      
-        <div>
+        <div className="container">
+           <div className="box">
            <Form method="POST" action="/">
-               <div className="form-group">
-                   <label for="username">Username</label>
-                   <input type="text" id="username" name="username" autoComplete="off" required value={username} onChange={e=>setUsername(e.target.value)}></input>
+               <div className="form-group-1">
+                   {/*<label for="username">Username</label>*/}
+                   <input type="text" id="username" placeholder="Username" name="username" autoComplete="off" required value={username} onChange={e=>setUsername(e.target.value)}></input>
                </div>
                <div className="form-group">
-                   <button type="submit" className="btn btn-primary" onClick={register}>Register Me</button>
+                   <button type="submit" className="btn" onClick={register}>Register Me</button>
                </div>
                <div className="form-group">
-                   <button type="submit">SignIn</button>
+                   <button type="submit" className="btn" >SignIn</button>
                </div>
            </Form>
+           </div>
         </div>
     )
 }
