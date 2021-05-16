@@ -77,6 +77,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## Various other links that helped:
 https://blog.learningdollars.com/2019/11/29/how-to-serve-a-reactapp-with-a-flask-server/
 
+https://www.jetbrains.com/help/pycharm/conda-support-creating-conda-virtual-environment.html
+
 https://www.digitalocean.com/community/tutorials/processing-incoming-request-data-in-flask
 
-https://medium.com/analytics-vidhya/face-recognition-login-using-reactjs-and-computer-vision-e98a892fd4ef
+https://flask.palletsprojects.com/en/1.1.x/quickstart/
