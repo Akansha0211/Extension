@@ -20,7 +20,7 @@
 .form-group-1{
   margin-top: 40px;
 }
-input[type=text]{
+input[type=text]:focus{
   padding: 7px;
   margin-bottom: 5px;
   border: 2px solid #eeeeee;
@@ -28,6 +28,7 @@ input[type=text]{
   border-radius:5px;
   font-family: inherit;
   font-size: inherit;
+  outline: none;
 }
 .btn{
   /*remove default behaviour*/
