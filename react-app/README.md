@@ -69,3 +69,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Various other links that helped:
+https://blog.learningdollars.com/2019/11/29/how-to-serve-a-reactapp-with-a-flask-server/
+
+https://www.digitalocean.com/community/tutorials/processing-incoming-request-data-in-flask
+
+https://medium.com/analytics-vidhya/face-recognition-login-using-reactjs-and-computer-vision-e98a892fd4ef
