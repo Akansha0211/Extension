@@ -18,17 +18,16 @@
   margin-left: auto;
 }
 .form-group-1{
-  margin-top: 40px;
+  margin-top: 80px;
 }
-input[type=text]:focus{
-  padding: 7px;
+input[type=text]{
+  padding: 10px;
   margin-bottom: 5px;
   border: 2px solid #eeeeee;
   box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
   border-radius:5px;
   font-family: inherit;
   font-size: inherit;
-  outline: none;
 }
 .btn{
   /*remove default behaviour*/
