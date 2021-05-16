@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/react/css/main.e3b779ed.chunk.css",
+    "main.css": "/static/react/css/main.10d4332f.chunk.css",
     "main.js": "/static/react/js/main.42e762d0.chunk.js",
     "main.js.map": "/static/react/js/main.42e762d0.chunk.js.map",
     "runtime-main.js": "/static/react/js/runtime-main.f037e5ee.js",
@@ -10,14 +10,14 @@
     "js/3.40ba27b7.chunk.js": "/static/react/js/3.40ba27b7.chunk.js",
     "js/3.40ba27b7.chunk.js.map": "/static/react/js/3.40ba27b7.chunk.js.map",
     "../../templates/index.html": "/static/react/../../templates/index.html",
-    "css/main.e3b779ed.chunk.css.map": "/static/react/css/main.e3b779ed.chunk.css.map",
+    "css/main.10d4332f.chunk.css.map": "/static/react/css/main.10d4332f.chunk.css.map",
     "js/2.a91b9a56.chunk.js.LICENSE.txt": "/static/react/js/2.a91b9a56.chunk.js.LICENSE.txt",
     "media/Register.css": "/static/react/media/sigmund.d4b8d3e1.jpg"
   },
   "entrypoints": [
     "js/runtime-main.f037e5ee.js",
     "js/2.a91b9a56.chunk.js",
-    "css/main.e3b779ed.chunk.css",
+    "css/main.10d4332f.chunk.css",
     "js/main.42e762d0.chunk.js"
   ]
 }
