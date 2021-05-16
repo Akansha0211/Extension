@@ -8,7 +8,7 @@ def hello_world():
 
 @app.route('/', methods=['POST'])
 def register():
-    return "Hello Akansha"
+    return request.form.get('username')
 
 if __name__ == '__main__':
     app.run(debug=True)
