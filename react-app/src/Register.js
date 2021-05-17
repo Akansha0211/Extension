@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import {Form} from 'react-bootstrap';
 import axios from 'axios';
 import './Register.css';
+import data from "bootstrap/js/src/dom/data";
 
 
 function Register() {
@@ -11,6 +12,9 @@ function Register() {
             username : username
         })
     }
+
+
+
     var today = new Date();
     var date = today.getDate() + "-" + (today.getMonth()+1) + "-" + today.getFullYear();
     var time = today.getHours() + ":" + today.getMinutes();
@@ -21,7 +25,7 @@ function Register() {
     return (      
         <div className="container">
            <div className="box">
-           <Form method="POST" action="/">
+           <Form method="POST" action="">
                <div className="form-group-1">
                    {/*<label for="username">Username</label>*/}
                    <input type="text" id="username" placeholder="Username" name="username" autoComplete="off" required value={username} onChange={e=>setUsername(e.target.value)}></input>
@@ -34,6 +38,9 @@ function Register() {
                </div>
            </Form>
            </div>
+            <div >
+                <img src="{{ url_for('video_feed') }}" width="100%"/>
+            </div>
            <div className="dt">
                 <h1>{time}</h1>
                 <h2>{date}</h2>
