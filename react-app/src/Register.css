@@ -46,3 +46,15 @@ input[type=text]{
 
   cursor: pointer;
 }
+.dt{
+  position: absolute;
+  /*margin-top: 150px;*/
+  display: flex;
+  flex-direction: column;
+  font-weight: 800;
+  color: white;
+  bottom: 40px;
+  left: 40px;
+  text-shadow: 2px 2px 4px #ffffff;
+}
+

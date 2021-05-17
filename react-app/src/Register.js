@@ -34,10 +34,10 @@ function Register() {
                </div>
            </Form>
            </div>
-           <div>
-                <p>{time}</p>
-                <p>{date}</p>
-                <p>{weekday}</p>
+           <div className="dt">
+                <h1>{time}</h1>
+                <h2>{date}</h2>
+                <h3>{weekday}</h3>
            </div>
 
         </div>
