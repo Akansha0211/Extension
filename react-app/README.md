@@ -86,3 +86,11 @@ https://flask.palletsprojects.com/en/1.1.x/quickstart/
 https://blog.miguelgrinberg.com/post/video-streaming-with-flask
 
 https://towardsdatascience.com/video-streaming-in-web-browsers-with-opencv-flask-93a38846fe00
+
+https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask
+
+https://blog.miguelgrinberg.com/post/how-to-create-a-react--flask-project
+
+https://www.linode.com/docs/guides/build-react-video-streaming-app/
+
+### display a text coming from api endpoint from a server to react application

@@ -1,18 +1,18 @@
-import React, { useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import {Form} from 'react-bootstrap';
 import axios from 'axios';
 import './Register.css';
-import data from "bootstrap/js/src/dom/data";
 
 
 function Register() {
-    const [username, setUsername] = useState('')
+    const [username, setUsername] = useState('');
+    const [val, setVal] = useState('');
+
     const register = () =>{
-        axios.post("http://localhost:5000/",{
+        axios.post("http://localhost:5000/video_feed",{
             username : username
         })
     }
-
 
 
     var today = new Date();
@@ -25,7 +25,7 @@ function Register() {
     return (      
         <div className="container">
            <div className="box">
-           <Form method="POST" action="">
+           <Form method="POST" action="/video_feed">
                <div className="form-group-1">
                    {/*<label for="username">Username</label>*/}
                    <input type="text" id="username" placeholder="Username" name="username" autoComplete="off" required value={username} onChange={e=>setUsername(e.target.value)}></input>
@@ -38,9 +38,9 @@ function Register() {
                </div>
            </Form>
            </div>
-            <div >
-                <img src="{{ url_for('video_feed') }}" width="100%"/>
-            </div>
+            {/*<div>*/}
+            {/*    <img src="{{ url_for('video_feed') }}" width="100%"/>*/}
+            {/*</div>*/}
            <div className="dt">
                 <h1>{time}</h1>
                 <h2>{date}</h2>
