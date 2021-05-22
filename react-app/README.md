@@ -93,4 +93,6 @@ https://blog.miguelgrinberg.com/post/how-to-create-a-react--flask-project
 
 https://www.linode.com/docs/guides/build-react-video-streaming-app/
 
+https://towardsdatascience.com/real-time-face-recognition-an-end-to-end-project-b738bb0f7348
+
 ### display a text coming from api endpoint from a server to react application
