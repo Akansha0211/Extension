@@ -38,9 +38,7 @@ function Register() {
                </div>
            </Form>
            </div>
-            {/*<div>*/}
-            {/*    <img src="{{ url_for('video_feed') }}" width="100%"/>*/}
-            {/*</div>*/}
+
            <div className="dt">
                 <h1>{time}</h1>
                 <h2>{date}</h2>
