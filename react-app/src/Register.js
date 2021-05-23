@@ -4,6 +4,7 @@ import axios from 'axios';
 import './Register.css';
 
 
+
 function Register() {
     const [username, setUsername] = useState('');
     const [val, setVal] = useState('');
@@ -43,7 +44,12 @@ function Register() {
                 <h1>{time}</h1>
                 <h2>{date}</h2>
                 <h3>{weekday}</h3>
+                <h3></h3>
            </div>
+
+            <div className="copyright">
+                <p>&copy;{new Date().getFullYear()} - All Rights Reserved.</p>
+            </div>
 
         </div>
     )

@@ -46,6 +46,7 @@ input[type=text]{
 
   cursor: pointer;
 }
+
 .dt{
   position: absolute;
   /*margin-top: 150px;*/
@@ -57,6 +58,12 @@ input[type=text]{
   left: 40px;
   text-shadow: 2px 2px 4px #ffffff;
 }
-
+.copyright{
+  position: absolute;
+  color: white;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+}
 
 
