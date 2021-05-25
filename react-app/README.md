@@ -97,4 +97,7 @@ https://towardsdatascience.com/real-time-face-recognition-an-end-to-end-project-
 
 https://quantum-inc.medium.com/remote-video-streaming-with-face-detection-d52ce2d71419
 
+https://www.geeksforgeeks.org/extract-images-from-video-in-python/
+
+https://www.codeproject.com/Questions/1057974/Face-Detection-And-Saving-In-Database-Sql-Server
 ### display a text coming from api endpoint from a server to react application

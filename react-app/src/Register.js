@@ -14,7 +14,12 @@ function Register() {
             username : username
         })
     }
-
+    
+    const login = () =>{
+        axios.post("http://localhost:5000/login",{
+            username: username
+        })
+    }
 
     var today = new Date();
     var date = today.getDate() + "-" + (today.getMonth()+1) + "-" + today.getFullYear();
@@ -34,9 +39,12 @@ function Register() {
                <div className="form-group">
                    <button type="submit" className="btn" onClick={register}>Register Me</button>
                </div>
+
+           </Form>
+           <Form method="POST" action="/login">
                <div className="form-group">
-                   <button type="submit" className="btn" >SignIn</button>
-               </div>
+                   <button type="submit" className="btn" onClick={login}>SignIn</button>
+                </div>
            </Form>
            </div>
 

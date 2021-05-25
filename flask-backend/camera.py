@@ -1,4 +1,5 @@
 import cv2
+import os
 
 class VideoCamera(object):
     def __init__(self):
@@ -20,5 +21,13 @@ class VideoCamera(object):
             end_cord_x = x+w
             end_cord_y = y+h
             cv2.rectangle(image,(x,y),(end_cord_x,end_cord_y),color,stroke)
+        # try:
+        #     if not os.path.exists('data'):
+        #         os.makedirs('data')
+        # except OSError:
+        #     print("Error : Creating directory of data")
+        #
+        # currentframe = 0
+        # if success:
         ret, jpeg = cv2.imencode('.jpg', image)
         return jpeg.tobytes()

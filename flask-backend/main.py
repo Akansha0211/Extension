@@ -22,6 +22,10 @@ def video_feed():
     return Response(gen(VideoCamera()),
                     mimetype='multipart/x-mixed-replace; boundary=frame')
 
+@app.route('/login',methods = ['GET','POST'])
+def login():
+    return "Welcome Akansha"
+
 
 if __name__ == '__main__':
     app.run(debug=True)
